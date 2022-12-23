@@ -5,7 +5,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "5933293418:AAFydXylWh_K3jBk8ngoUm4AzSUcCH4mrD8")
     # The Telegram API things
     API_ID = int(os.environ.get("API_ID", "25031360"))
-    API_HASH = os.environ.get("API_HASH","")
+    API_HASH = os.environ.get("API_HASH","b6e73b921948a2f437d19bc2c2aaa595")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
@@ -29,4 +29,4 @@ class Config(object):
     # database uri (mongodb)
     DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://nagarajamh0:amithnajanaja333@cluster0.27pr1yn.mongodb.net/?retryWrites=true&w=majority")
     MAX_RESULTS = "50"
-    PREMIUM_USER = os.environ.get("PREMIUM_USER")
+    PREMIUM_USER = os.environ.get("PREMIUM_USER", "False")
